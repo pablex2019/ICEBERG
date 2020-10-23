@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace Iceberg
 {
-    public partial class EmpleadoIndice : Form
+    public partial class RubroIndice : Form
     {
-        public EmpleadoIndice()
+        public RubroIndice()
         {
             InitializeComponent();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            new EmpleadoNuevo().Show();
+
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            new EmpleadoEditar().Show();
+
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

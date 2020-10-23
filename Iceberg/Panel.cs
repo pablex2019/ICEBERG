@@ -74,5 +74,15 @@ namespace Iceberg
                     break;
             }
         }
+
+        private void mnuRubro_Click(object sender, EventArgs e)
+        {
+            new RubroIndice().Show();
+        }
+
+        private void mnuCategoria_Click(object sender, EventArgs e)
+        {
+            new CategoriaIndice().Show();
+        }
     }
 }

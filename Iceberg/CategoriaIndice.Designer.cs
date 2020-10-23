@@ -1,6 +1,6 @@
 ﻿namespace Iceberg
 {
-    partial class ClienteIndice
+    partial class CategoriaIndice
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -41,21 +40,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dtpFecha
-            // 
-            this.dtpFecha.CustomFormat = "";
-            this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha.Location = new System.Drawing.Point(174, 70);
-            this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(97, 20);
-            this.dtpFecha.TabIndex = 19;
-            this.dtpFecha.Value = new System.DateTime(2020, 10, 22, 8, 21, 25, 0);
-            // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(174, 70);
+            this.txtDescripcion.Location = new System.Drawing.Point(151, 67);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(245, 20);
+            this.txtDescripcion.Size = new System.Drawing.Size(200, 20);
             this.txtDescripcion.TabIndex = 18;
             // 
             // label3
@@ -103,9 +92,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 96);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 97);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(466, 125);
+            this.dataGridView1.Size = new System.Drawing.Size(339, 125);
             this.dataGridView1.TabIndex = 13;
             // 
             // comboBox1
@@ -130,16 +119,15 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.Size = new System.Drawing.Size(99, 13);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Listado de Clientes";
+            this.label1.Text = "Listado de Articulos";
             // 
-            // ClienteIndice
+            // CategoriaIndice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(491, 261);
-            this.Controls.Add(this.dtpFecha);
+            this.ClientSize = new System.Drawing.Size(363, 260);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnEliminar);
@@ -149,8 +137,8 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "ClienteIndice";
-            this.Text = "ClienteIndice";
+            this.Name = "CategoriaIndice";
+            this.Text = "CategoriaIndice";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -158,8 +146,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnEliminar;

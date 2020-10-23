@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace Iceberg
 {
-    public partial class EmpleadoIndice : Form
+    public partial class CategoriaIndice : Form
     {
-        public EmpleadoIndice()
+        public CategoriaIndice()
         {
             InitializeComponent();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            new EmpleadoNuevo().Show();
+            new CategoriaNuevo().Show();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            new EmpleadoEditar().Show();
+            new CategoriaEditar().Show();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
