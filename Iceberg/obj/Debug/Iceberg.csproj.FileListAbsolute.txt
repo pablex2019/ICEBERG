@@ -15,3 +15,15 @@ C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones 
 C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.NovedadIndice.resources
 C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.ProveedorIndice.resources
 C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.Venta.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.ArticuloEditar.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.ArticuloNuevo.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.HistorialVenta.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.ProveedorEditar.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.ProveedorNuevo.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.RubroIndice.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.CategoriaEditar.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.CategoriaIndice.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.CategoriaNuevo.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.ClienteEditar.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.ClienteNuevo.resources
+C:\Users\pablo\Desktop\Documentos\Facultad\3°Año\Programacion de Aplicaciones Visuales\Codigo Fuente\Versiones\1.1\Iceberg\Iceberg\obj\Debug\Iceberg.EmpleadoNuevo.resources

@@ -16,5 +16,20 @@ namespace Iceberg
         {
             InitializeComponent();
         }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            new ArticuloNuevo().Show();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            new ArticuloEditar().Show();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Iceberg
 {
-    public partial class Venta : Form
+    public partial class CategoriaEditar : Form
     {
-        public Venta()
+        public CategoriaEditar()
         {
             InitializeComponent();
-        }
-
-        private void btnHistorial_Click(object sender, EventArgs e)
-        {
-            new HistorialVenta().Show();
         }
     }
 }

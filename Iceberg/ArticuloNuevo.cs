@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Iceberg
 {
-    public partial class Venta : Form
+    public partial class ArticuloNuevo : Form
     {
-        public Venta()
+        public ArticuloNuevo()
         {
             InitializeComponent();
         }
 
-        private void btnHistorial_Click(object sender, EventArgs e)
+        private void btnRubros_Click(object sender, EventArgs e)
         {
-            new HistorialVenta().Show();
+            new RubroIndice().Show();
         }
     }
 }

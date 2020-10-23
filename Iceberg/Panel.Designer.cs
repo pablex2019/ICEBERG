@@ -28,36 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnuArticulo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCliente = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuEmpleado = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuProveedor = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuNovedad = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuVenta = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuCerrarSesion = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCambiarClave = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCerrarSesion = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSalir = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuArticulo,
-            this.mnuCliente,
-            this.mnuEmpleado,
-            this.mnuProveedor,
-            this.mnuNovedad,
-            this.mnuVenta,
-            this.mnuCambiarClave,
-            this.mnuCerrarSesion,
-            this.mnuSalir});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(678, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // mnuArticulo
             // 
@@ -101,19 +83,19 @@
             this.mnuVenta.Text = "Venta";
             this.mnuVenta.Click += new System.EventHandler(this.mnuVenta_Click);
             // 
-            // mnuCerrarSesion
-            // 
-            this.mnuCerrarSesion.Name = "mnuCerrarSesion";
-            this.mnuCerrarSesion.Size = new System.Drawing.Size(88, 20);
-            this.mnuCerrarSesion.Text = "Cerrar Sesión";
-            this.mnuCerrarSesion.Click += new System.EventHandler(this.mnuCerrarSesion_Click);
-            // 
             // mnuCambiarClave
             // 
             this.mnuCambiarClave.Name = "mnuCambiarClave";
             this.mnuCambiarClave.Size = new System.Drawing.Size(127, 20);
             this.mnuCambiarClave.Text = "Cambiar Contraseña";
             this.mnuCambiarClave.Click += new System.EventHandler(this.mnuCambiarClave_Click);
+            // 
+            // mnuCerrarSesion
+            // 
+            this.mnuCerrarSesion.Name = "mnuCerrarSesion";
+            this.mnuCerrarSesion.Size = new System.Drawing.Size(88, 20);
+            this.mnuCerrarSesion.Text = "Cerrar Sesión";
+            this.mnuCerrarSesion.Click += new System.EventHandler(this.mnuCerrarSesion_Click);
             // 
             // mnuSalir
             // 
@@ -122,12 +104,30 @@
             this.mnuSalir.Text = "Salir";
             this.mnuSalir.Click += new System.EventHandler(this.mnuSalir_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuArticulo,
+            this.mnuCliente,
+            this.mnuEmpleado,
+            this.mnuProveedor,
+            this.mnuNovedad,
+            this.mnuVenta,
+            this.mnuCambiarClave,
+            this.mnuCerrarSesion,
+            this.mnuSalir});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(817, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
             // Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(678, 331);
+            this.ClientSize = new System.Drawing.Size(817, 331);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Panel";
@@ -142,15 +142,15 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mnuArticulo;
         private System.Windows.Forms.ToolStripMenuItem mnuCliente;
         private System.Windows.Forms.ToolStripMenuItem mnuEmpleado;
         private System.Windows.Forms.ToolStripMenuItem mnuProveedor;
         private System.Windows.Forms.ToolStripMenuItem mnuNovedad;
         private System.Windows.Forms.ToolStripMenuItem mnuVenta;
-        private System.Windows.Forms.ToolStripMenuItem mnuCerrarSesion;
         private System.Windows.Forms.ToolStripMenuItem mnuCambiarClave;
+        private System.Windows.Forms.ToolStripMenuItem mnuCerrarSesion;
         private System.Windows.Forms.ToolStripMenuItem mnuSalir;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
