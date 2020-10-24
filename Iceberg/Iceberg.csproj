@@ -136,11 +136,23 @@
     <Compile Include="IniciarSesion.Designer.cs">
       <DependentUpon>IniciarSesion.cs</DependentUpon>
     </Compile>
+    <Compile Include="NovedadEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovedadEditar.Designer.cs">
+      <DependentUpon>NovedadEditar.cs</DependentUpon>
+    </Compile>
     <Compile Include="NovedadIndice.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NovedadIndice.Designer.cs">
       <DependentUpon>NovedadIndice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovedadNueva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovedadNueva.Designer.cs">
+      <DependentUpon>NovedadNueva.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel.cs">
       <SubType>Form</SubType>
@@ -168,11 +180,23 @@
     <Compile Include="ProveedorNuevo.Designer.cs">
       <DependentUpon>ProveedorNuevo.cs</DependentUpon>
     </Compile>
+    <Compile Include="RubroEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RubroEditar.Designer.cs">
+      <DependentUpon>RubroEditar.cs</DependentUpon>
+    </Compile>
     <Compile Include="RubroIndice.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RubroIndice.Designer.cs">
       <DependentUpon>RubroIndice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RubroNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RubroNuevo.Designer.cs">
+      <DependentUpon>RubroNuevo.cs</DependentUpon>
     </Compile>
     <Compile Include="Venta.cs">
       <SubType>Form</SubType>
@@ -210,6 +234,9 @@
     <EmbeddedResource Include="ClienteNuevo.resx">
       <DependentUpon>ClienteNuevo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmpleadoEditar.resx">
+      <DependentUpon>EmpleadoEditar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmpleadoIndice.resx">
       <DependentUpon>EmpleadoIndice.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,8 +249,14 @@
     <EmbeddedResource Include="IniciarSesion.resx">
       <DependentUpon>IniciarSesion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NovedadEditar.resx">
+      <DependentUpon>NovedadEditar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NovedadIndice.resx">
       <DependentUpon>NovedadIndice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovedadNueva.resx">
+      <DependentUpon>NovedadNueva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel.resx">
       <DependentUpon>Panel.cs</DependentUpon>
@@ -246,8 +279,14 @@
     <EmbeddedResource Include="ProveedorNuevo.resx">
       <DependentUpon>ProveedorNuevo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RubroEditar.resx">
+      <DependentUpon>RubroEditar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RubroIndice.resx">
       <DependentUpon>RubroIndice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RubroNuevo.resx">
+      <DependentUpon>RubroNuevo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Venta.resx">
       <DependentUpon>Venta.cs</DependentUpon>

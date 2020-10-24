@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Iceberg
 {
-    public partial class EmpleadoNuevo : Form
+    public partial class NovedadEditar : Form
     {
-        public EmpleadoNuevo()
+        public NovedadEditar()
         {
             InitializeComponent();
-        }
-
-        private void btnNivelAcceso_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
