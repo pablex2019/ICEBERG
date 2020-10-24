@@ -16,5 +16,10 @@ namespace Iceberg
         {
             InitializeComponent();
         }
+
+        private void btnNivelAcceso_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
