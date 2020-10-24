@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Iceberg
 {
-    public partial class Form1 : Form
+    public partial class ArticuloNuevo : Form
     {
-        public Form1()
+        public ArticuloNuevo()
         {
             InitializeComponent();
+        }
+
+        private void btnRubros_Click(object sender, EventArgs e)
+        {
+            new RubroIndice().Show();
         }
     }
 }
